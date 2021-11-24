@@ -6,7 +6,6 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import utils.PropertyManager;
 
-
 public abstract class DriverManager {
 
     AppiumDriver driver;

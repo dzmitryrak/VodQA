@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test-class Suite" parallel="tests" >
+<suite name="Test-class Suite" parallel="tests" thread-count="1">
 <test name="Android - Tests" >
-    <parameter name="deviceName" value="Nexus5X"/>
+    <parameter name="deviceName" value="Pixel_XL_API_30"/>
     <parameter name="platform" value="Android"/>
     <classes>
         <class name="tests.ComponentTests"/>
